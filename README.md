@@ -3,8 +3,8 @@ excel minesweeper
 
 Worksheet events used: SelectionChange, BeforeRightClick 
 
-Required functionalisies coudln't be achived by direct use of those events. Instead, events are used to set the boolean switches bSelectionChanged and/or bRightClicked.
-Then the switches are used to schedule required action 100 miliseconds after cell selection change and/or right click events.
+Required functionalisies couldn't be achived by direct use of those events. Instead, events are used to set the boolean switches bSelectionChanged and/or bRightClicked.
+Then the switches are used to schedule required action 100 miliseconds after event was triggered.
 
 Minesweeper requires quite challanging logic to be implemented to check the field which the user wants to reveal.
 Recursive procedure 'UnHide' is used in this file to check selected filed as well as all the fields around it.
